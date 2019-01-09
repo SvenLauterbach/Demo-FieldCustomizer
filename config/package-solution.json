@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "field-extension-client-side-solution",
+    "id": "c90bd8bc-a8d3-47d6-ad41-58942a81a335",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/field-extension.sppkg"
+  }
+}

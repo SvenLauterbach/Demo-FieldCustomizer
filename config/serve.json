@@ -1,0 +1,29 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://proconsult.sharepoint.com/sites/TechTalks/Lists/Themen/AllItems.aspx",
+      "fieldCustomizers": {
+        "Percent": {
+          "id": "a77822bd-3bf6-4eac-8663-1d6f4ffc906f",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "demoCustomizer": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "a77822bd-3bf6-4eac-8663-1d6f4ffc906f",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}
